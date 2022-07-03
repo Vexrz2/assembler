@@ -9,4 +9,4 @@ This assembler works on a "virtual" computer in the sense that it doesn't actual
 The "computer" uses 8192 blocks of memory (each block is 20 bits long) and has 16 registers (also 20 bits long)
 The made-up language consists of 16 different instructions, and each instruction has a different amount of operands and addressing modes.
 
-All in all, this program is an efficient 2-pass assembler on a made-up language which returns files for the external variables, and the binary code (represented in a special form) after assembly.
+All in all, this program is an efficient 2-pass assembler on a made-up language which returns files for the external variables, entry variables and the binary code (represented in a special form) after assembly.
