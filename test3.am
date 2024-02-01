@@ -1,9 +1,0 @@
-.entry LIST 
-.extern W
-inc  r6
-sub r1, r4 
-sub r7, r5
-inc  r6       
-mov r3, W
-LIST:              .data  6, -9	     
-stop
